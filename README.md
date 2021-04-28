@@ -19,7 +19,7 @@ While the 2 above methods should work, we highly recommend you try the first app
 
 To get started, please make sure you have Docker installed on your machine. If you do not already have it installed, you can download it [here](https://docs.docker.com/get-docker/).
 
-Assuming you have docker installed, you can run the following command in the terminal to handle most of the work (build the Docker image, and run the container).
+Assuming you have docker installed, you can run the following command in the terminal (make sure you are in the root folder) to handle most of the work (build the Docker image, and run the container).
 
 ```bash
 $ bash ./start.sh
@@ -36,7 +36,7 @@ Assuming you ran the last step successfully, you should now be able to access th
 This approach requires that you have Python 3.8.* and above installed. If you do not have it installed, you can download it [here](https://www.python.org/downloads/release).
 
 ### To Setup a Python 3  Virtual  Environment
-After you have installed Python, you can run the following in your Terminal
+After you have installed Python, you can run the following in your Terminal (make sure you are in the root folder)
 
 ```python3 -m venv /path/to/new/virtual/environment```
 
