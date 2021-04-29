@@ -9,7 +9,7 @@ There are 2 ways to set up this project your machine, and they are as follows:
 - Uisng Docker **[Recommended]**
 - Using a Python Virtual Environemnt
 
-While the 2 above methods should work, we highly recommend you try the first approach.
+While the 2 above methods should work, I highly recommend you try the first approach.
 
 
 ## Setting Up and Running
@@ -70,20 +70,20 @@ source venv/bin/activate
 ```
 
 ### Install necessary Libraries
-After activating the virtual environment, we need to install necessary libraries for our app to work. To achieve this, we run:
+After activating the virtual environment, you need to install necessary libraries for the app to work. To achieve this, run:
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-and to download the necessary tokenizer for classification we need to run the following:
+and to download the necessary tokenizer for classification you need to run the following:
 
 ```bash
 python -m nltk.downloader punkt
 ```
 
 ### Start the App
-To start the app, we want to run the following in your terminal:
+To start the app, you want to run the following in your terminal:
 ```bash
 flask run
 ```
